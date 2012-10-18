@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider, Button
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
+
+#
 class ImgView(object):
     def __init__(self, img, fig_id=None, imin=None, imax=None):
         self.fig = plt.figure(fig_id)
